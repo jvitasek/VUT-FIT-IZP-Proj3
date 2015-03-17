@@ -1,12 +1,12 @@
-/*
- * File:  		proj3.c
- * Date:  		1.12.2013 17:23
- * Author:  	1BIB | Jakub Vitasek, xvitas02@stud.fit.vutbr.cz
- * Project: 	1BIT Project 3: Figure Lookups in Matrices
- * Desc.:		The program finds the longest horizontal/vertical lines
- *       		or squares in a bitmap saved as a .txt which contains
- *        		a rectangular matrix of 0s and 1s. It then prints the
- *        		source/dest. coordinates of the line/square. 
+/**
+ * @file    proj3.c
+ * @author  Jakub Vitasek <me@jvitasek.cz>
+ * @date    1.12.2013
+ * @brief   1BIT Project 3: Figure Lookups in Matrices
+ * 
+ * The program finds the longest horizontal/vertical lines or squares in a bitmap
+ * saved as a .txt which contains a rectangular matrix of 0s and 1s. It then
+ * prints the source/dest. coordinates of the line/square.
  */
 
 #include <stdio.h>
