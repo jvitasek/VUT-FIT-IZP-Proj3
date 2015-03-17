@@ -158,7 +158,7 @@ int arg_type_and_output(int argc, const char *argv[])
 
 		
 	}
-	fprintf(stderr, "%s%s%s", error, ERRMSG[3], ERRMSG[0]);
+	fprintf(stderr, "%s%s%s", error, ERRMSG[3], ERRMSG[0]); // error
 	return EXIT_FAILURE;
 }
 
